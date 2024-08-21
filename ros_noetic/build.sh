@@ -2,4 +2,4 @@
 
 SCRIPT_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-docker build $SCRIPT_PATH -t amocks-ros-noetic
+docker build $SCRIPT_PATH -t amock/ros-noetic
